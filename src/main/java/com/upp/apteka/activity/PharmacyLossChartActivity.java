@@ -34,7 +34,7 @@ public class PharmacyLossChartActivity implements Activity {
 		timeEnums.add(TimeEnum.WEEK);
 		timeEnums.add(TimeEnum.MONTH);
 
-		jFrame.add(new TimeSeriesChart<Long>(timeSeriesDataSetGenerator, "Втрати кожної аптеки мережі", timeEnums));
+		jFrame.add(new TimeSeriesChart<Long>(timeSeriesDataSetGenerator, "Витрати кожної аптеки мережі", timeEnums));
 
 	}
 

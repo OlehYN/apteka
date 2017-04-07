@@ -42,7 +42,7 @@ public class LossTimeSeriesDataSetGenerator implements TimeSeriesDataSetGenerato
 	@Override
 	public List<SeriesParam<String>> getTimeSeriesParam() {
 		List<SeriesParam<String>> params = new ArrayList<>();
-		params.add(new SeriesParam<String>("Втрати", "Щось"));
+		params.add(new SeriesParam<String>("Витрати", "Щось"));
 		return params;
 	}
 

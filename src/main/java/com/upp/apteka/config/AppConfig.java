@@ -173,9 +173,9 @@ public class AppConfig {
 
 		// JManu for viewing
 
-		JMenu viewMenu = new JMenu("Переглянути");
+		JMenu viewMenu = new JMenu("Перегляд");
 
-		JMenuItem allPatients = new JMenuItem("Переглянути пацієнтів");
+		JMenuItem allPatients = new JMenuItem("Перегляд пацієнтів");
 		allPatients.addActionListener(new ActionListener() {
 
 			// @Override
@@ -189,7 +189,7 @@ public class AppConfig {
 			}
 		});
 
-		JMenuItem allDoctors = new JMenuItem("Переглянути лікарів");
+		JMenuItem allDoctors = new JMenuItem("Перегляд лікарів");
 		allDoctors.addActionListener(new ActionListener() {
 
 			// @Override
@@ -203,7 +203,7 @@ public class AppConfig {
 			}
 		});
 
-		JMenuItem allPurchases = new JMenuItem("Переглянути покупки");
+		JMenuItem allPurchases = new JMenuItem("Перегляд покупок");
 		allPurchases.addActionListener(new ActionListener() {
 
 			// @Override
@@ -217,7 +217,7 @@ public class AppConfig {
 			}
 		});
 
-		JMenuItem allPrescriptions = new JMenuItem("Переглянути рецепти");
+		JMenuItem allPrescriptions = new JMenuItem("Перегляд рецептів");
 		allPrescriptions.addActionListener(new ActionListener() {
 
 			// @Override
@@ -231,7 +231,7 @@ public class AppConfig {
 			}
 		});
 
-		JMenuItem allPharmacies = new JMenuItem("Переглянути аптеки");
+		JMenuItem allPharmacies = new JMenuItem("Перегляд аптек");
 		allPharmacies.addActionListener(new ActionListener() {
 
 			public void actionPerformed(ActionEvent e) {
@@ -243,7 +243,7 @@ public class AppConfig {
 			}
 		});
 
-		JMenuItem allMedicines = new JMenuItem("Переглянути ліки");
+		JMenuItem allMedicines = new JMenuItem("Перегляд ліків");
 		allMedicines.addActionListener(new ActionListener() {
 
 			public void actionPerformed(ActionEvent e) {
@@ -255,7 +255,7 @@ public class AppConfig {
 			}
 		});
 
-		JMenuItem allPharmacyMedicines = new JMenuItem("Переглянути ліки аптеки");
+		JMenuItem allPharmacyMedicines = new JMenuItem("Перегляд ліків аптеки");
 		allPharmacyMedicines.addActionListener(new ActionListener() {
 
 			public void actionPerformed(ActionEvent e) {
@@ -267,7 +267,7 @@ public class AppConfig {
 			}
 		});
 
-		JMenuItem allDeliveries = new JMenuItem("Переглянути поставки");
+		JMenuItem allDeliveries = new JMenuItem("Перегляд поставок");
 		allDeliveries.addActionListener(new ActionListener() {
 
 			public void actionPerformed(ActionEvent e) {
@@ -284,7 +284,7 @@ public class AppConfig {
 		 */
 		JMenu chartMenu = new JMenu("Звіти");
 
-		JMenuItem lossChart = new JMenuItem("Графік втрат");
+		JMenuItem lossChart = new JMenuItem("Графік витрат");
 		lossChart.addActionListener(new ActionListener() {
 
 			public void actionPerformed(ActionEvent e) {
@@ -293,7 +293,7 @@ public class AppConfig {
 			}
 		});
 
-		JMenuItem pharmacyLossChart = new JMenuItem("Графік втрат кожної аптеки");
+		JMenuItem pharmacyLossChart = new JMenuItem("Графік витрат кожної аптеки");
 		pharmacyLossChart.addActionListener(new ActionListener() {
 
 			public void actionPerformed(ActionEvent e) {

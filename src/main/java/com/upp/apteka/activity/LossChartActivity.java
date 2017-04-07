@@ -34,7 +34,7 @@ public class LossChartActivity implements Activity {
 		timeEnums.add(TimeEnum.WEEK);
 		timeEnums.add(TimeEnum.MONTH);
 
-		jFrame.add(new TimeSeriesChart<String>(timeSeriesDataSetGenerator, "Втрати мережі аптек", timeEnums));
+		jFrame.add(new TimeSeriesChart<String>(timeSeriesDataSetGenerator, "Витрати мережі аптек", timeEnums));
 
 	}
 
